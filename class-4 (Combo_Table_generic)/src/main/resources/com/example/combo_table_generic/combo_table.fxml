@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="733.0" prefWidth="1056.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.combo_table_generic.combo_tableController">
+   <children>
+      <ComboBox fx:id="comboBox" layoutX="287.0" layoutY="36.0" prefHeight="25.0" prefWidth="356.0" />
+      <TableView fx:id="tableView" layoutX="40.0" layoutY="131.0" prefHeight="498.0" prefWidth="972.0">
+        <columns>
+          <TableColumn fx:id="tableCol_SL" prefWidth="246.0" text="SL" />
+          <TableColumn fx:id="tableCol_Name" prefWidth="394.0" text="Name" />
+            <TableColumn fx:id="tableCol_Phone" prefWidth="331.0" text="Phone" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
